@@ -7,7 +7,6 @@ class Solution:
                 nums[c] = nums[i]
         return c + 1
 
-# call the function
 nums = [1, 1, 2]
 s = Solution()
 k = s.removeDuplicates(nums)
